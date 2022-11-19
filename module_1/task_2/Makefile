@@ -1,6 +1,6 @@
 .RECIPEPREFIX = > 
 COMMON_FLAGS = -Wall -Wextra -g
-SRC = main.cc
+SRC = main.c
 
 CC = gcc
 CFLAGS=$(COMMON_FLAGS)
@@ -10,4 +10,4 @@ CXXFLAGS = $(COMMON_FLAGS)
 
 .PHONY: all
 all: $(SRC)
-> $(CC) $^ -o main
+> $(CC) $(CFLAGS) $^ -o main
