@@ -1,5 +1,7 @@
 **a.out
 **main
+**.d
+**.o
 .ccls-cache/
-.replit
-replit.nix
+#.replit
+#replit.nix
